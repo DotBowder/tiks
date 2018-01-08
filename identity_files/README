@@ -1,0 +1,4 @@
+# The files located in tiks/identity_files/ are the private & public keys used for building the SSH connection. 
+# The GUI gives one the opportunity to generate these keys, alternatively, users can manually create and specify 
+# their own with ssh-keygen. 
+# It is advised to disallow any unprivilaged access to this folder.
