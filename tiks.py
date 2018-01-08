@@ -193,17 +193,6 @@ def BasicOutput(output):
     textOutput.insert(END, output)
     textOutput.config(state=DISABLED)
 
-def GetIdentity():
-    global SELECTED_ROUTER
-    SELECTED_ROUTER = ast.literal_eval(routerListbox.get(ACTIVE))
-
-    pr = subprocess.Popen([ 'scripts/shell_scripts.sh', 'identity', SELECTED_ROUTER["ip"], SELECTED_ROUTER["username"], CWD + "/identity_files/" + SELECTED_ROUTER["id_file"] ],stdout=subprocess.PIPE)
-    output = str(pr.stdout.read(), encoding='utf-8').replace("\r", "")
-
-    BasicOutput(output)
-
-
-
 
 
 root.mainloop()
