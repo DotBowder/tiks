@@ -7,7 +7,7 @@ import os
 
 #### Initialize tkinter
 root = Tk()
-root.title("Window Name Here")
+root.title("About")
 # root.geometry("800x370")
 mainWindow = Frame(root)
 mainWindow.grid()
