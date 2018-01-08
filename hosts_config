@@ -1,0 +1,2 @@
+# Syntax: [host ip],[username],[identity file],[custom]
+# eg: 192.168.88.1,admin,192.168.88.1_rsa_2048,saltypasswords
